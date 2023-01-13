@@ -1156,8 +1156,13 @@ footer .footerlogo {
 	
 }
 
+
+
 .team-item {
+	height: 100%;
 	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
 }
 
 .team-item .col {
@@ -1178,8 +1183,9 @@ footer .footerlogo {
 .team-item .down-content {
 	background-color: rgb(236, 236, 236);
 	padding: 30px;
-	margin: auto;
 	text-align: center;
+	flex: 1;
+	margin-bottom: 15px;
 }
 
 .team-item .down-content h4 {
@@ -1203,46 +1209,6 @@ footer .footerlogo {
 	margin-bottom: 5px;
 	overflow-wrap: break-word;
 }
-
-.pl-item {
-	margin-bottom: 15px;
-}
-
-.pl-item img {
-	width: 100%;
-	overflow: hidden;
-	height: 200px;
-	object-fit: cover;
-}
-
-.pl-item .down-content {
-	background-color: rgb(236, 236, 236);
-	padding: 30px;
-	margin: auto;
-	text-align: center;
-}
-
-.pl-item .down-content h4 {
-	font-size: 30px;
-	font-weight: 700;
-	letter-spacing: 0.25px;
-	margin-bottom: 5px;
-}
-
-.pl-item .down-content span {
-	color: #161616;
-	font-weight: 300;
-	font-size: 20px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom: 12 px;
-}
-
-.pl-item .down-content p {
-	margin-bottom: 5px;
-	overflow-wrap: break-word;
-}
-
 
 
 
