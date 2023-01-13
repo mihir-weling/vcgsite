@@ -1161,7 +1161,11 @@ footer .footerlogo {
 }
 
 .team-item .col {
-	display: table-cell;
+	margin-bottom: 15px;
+}
+
+.team-item .row {
+	margin-bottom: 15px;
 }
 
 .team-item img {
@@ -1176,11 +1180,6 @@ footer .footerlogo {
 	padding: 30px;
 	margin: auto;
 	text-align: center;
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	
 }
 
 .team-item .down-content h4 {
@@ -1325,6 +1324,13 @@ footer .footerlogo {
 	margin: auto;
 }
 
+.row {
+	
+}
+
+.row [class*="col-"] {
+    
+}
 
 
 .contact-information {
